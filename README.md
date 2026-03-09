@@ -12,21 +12,21 @@ This project demonstrates how **AI can be used to improve road safety and automa
 
 ---
 
-# 📌 Features
+# Features
 
-✔ Helmet detection using **YOLOv8**
-✔ Seatbelt detection using **YOLOv8**
-✔ Driver distraction detection using **ResNet18 (PyTorch)**
-✔ Automatic **license plate detection**
-✔ License plate recognition using **EasyOCR**
-✔ **Live camera monitoring dashboard (Flask)**
-✔ Automatic **violation detection and fine calculation**
-✔ **CSV violation record logging**
-✔ Real-time **traffic monitoring interface**
+ Helmet detection using **YOLOv8**
+ Seatbelt detection using **YOLOv8**
+ Driver distraction detection using **ResNet18 (PyTorch)**
+ Automatic **license plate detection**
+ License plate recognition using **EasyOCR**
+ **Live camera monitoring dashboard (Flask)**
+ Automatic **violation detection and fine calculation**
+ **CSV violation record logging**
+ Real-time **traffic monitoring interface**
 
 ---
 
-# 🧠 Technologies Used
+# Technologies Used
 
 * **Python**
 * **OpenCV**
@@ -38,7 +38,7 @@ This project demonstrates how **AI can be used to improve road safety and automa
 
 ---
 
-# ⚙️ System Workflow
+# System Workflow
 
 Camera Feed
 ⬇
@@ -70,7 +70,7 @@ Dashboard Display + CSV Logging
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```
 Smart-Traffic-Monitoring-System
@@ -121,7 +121,7 @@ pip install pillow
 
 ---
 
-# ▶️ Run the Project
+#  Run the Project
 
 Start the application:
 
@@ -169,7 +169,7 @@ Date & Time,Camera Location,Helmet Status,Seatbelt Status,Driver Activity,Vehicl
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 * Multi-camera traffic monitoring
 * Cloud database integration
