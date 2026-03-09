@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Smart Traffic Monitoring System</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<h1>SMART TRAFFIC MONITORING SYSTEM</h1>
+
+<div class="panel">
+<p>DETAILS:</p>
+
+<p>Date & Time : <span id="time"></span></p>
+
+<p>Camera Location : <span id="location"></span></p>
+
+<p>Helmet Status : <span id="helmet"></span></p>
+
+<p>Seatbelt Status : <span id="seatbelt"></span></p>
+
+<p> Activity : <span id="activity"></span></p>
+
+<p>Vehicle Number : <span id="vehicle"></span></p>
+
+<p>Violation Type : <span id="violation"></span></p>
+
+<p>Fine Amount : ₹<span id="fine"></span></p>
+</div>
+
+<div class="board">
+<h2>Live Camera Feed</h2>
+
+<img src="{{ url_for('video') }}" width="700">
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
