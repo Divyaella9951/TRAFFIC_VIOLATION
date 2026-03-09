@@ -60,7 +60,7 @@ Dashboard Display + CSV Logging
 
 ---
 
-# 📊 Violation Rules
+# Violation Rules
 
 | Violation          | Fine  |
 | ------------------ | ----- |
@@ -178,7 +178,6 @@ Date & Time,Camera Location,Helmet Status,Seatbelt Status,Driver Activity,Vehicl
 * Real-time traffic analytics
 * Integration with smart city infrastructure
 
----
 
 
 
