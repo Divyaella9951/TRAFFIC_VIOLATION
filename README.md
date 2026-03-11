@@ -20,6 +20,7 @@ This project demonstrates how **AI can be used to improve road safety and automa
  Automatic **license plate detection**
  License plate recognition using **EasyOCR**
  **Live camera monitoring dashboard (Flask)**
+ **alert the message**
  Automatic **violation detection and fine calculation**
  **CSV violation record logging**
  Real-time **traffic monitoring interface**
@@ -54,7 +55,7 @@ OCR Plate Recognition
 ⬇
 Violation Detection
 ⬇
-Fine Calculation
+Fine Calculation with alert message
 ⬇
 Dashboard Display + CSV Logging
 
